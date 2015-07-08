@@ -7,5 +7,7 @@
   "source": "git://git.openstack.org/openstack-infra/puppet-os_client_config.git",
   "project_page": "http://docs.openstack.org/infra/system-config/",
   "issues_url": "https://storyboard.openstack.org/#!/project/823",
-  "dependencies": []
+  "dependencies": [
+    {"name":"puppetlabs/stdlib", "version_requirement": "<5.0.0"}
+  ]
 }

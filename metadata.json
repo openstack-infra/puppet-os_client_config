@@ -1,11 +1,16 @@
 {
   "name": "openstackinfra-os_client_config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Openstack CI",
   "summary": "Puppet module for os-client-config",
   "license": "Apache-2.0",
   "source": "git://git.openstack.org/openstack-infra/puppet-os_client_config.git",
   "project_page": "http://docs.openstack.org/infra/system-config/",
   "issues_url": "https://storyboard.openstack.org/#!/project/823",
-  "dependencies": []
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 4.6.0 < 5.0.0"
+    }
+  ]
 }

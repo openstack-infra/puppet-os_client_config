@@ -1,3 +1,3 @@
-# OpenStack os_client_config Module
+# This repo has moved to OpenDev
 
-This module installs and configures os_client_config config files.
+It can now be found at [https://opendev.org/opendev/puppet-os_client_config](https://opendev.org/opendev/puppet-os_client_config)
